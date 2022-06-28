@@ -684,7 +684,7 @@
                                 }
                               ],
                               "truncateButtonColor": "#FFC13D",
-                              "text": "{{GetAllOrders.data.length}}",
+                              "text": "{{GetAllOrder.data.length}}",
                               "key": "deco66gubs",
                               "labelTextSize": "0.875rem",
                               "rightColumn": 37,
@@ -4237,8 +4237,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_GetAllOrders",
-              "name": "GetAllOrders",
+              "id": "Home_GetAllOrder",
+              "name": "GetAllOrder",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [],

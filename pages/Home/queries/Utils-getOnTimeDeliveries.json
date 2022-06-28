@@ -20,7 +20,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  const arr = GetAllOrders.data.map(x => parseInt(x.On_time));\n  return (arr.reduce((a, b) => a + b, 0) / GetAllOrders.data.length).toFixed(2);\n}",
+      "body": "() => {\n  const arr = GetAllOrder.data.map(x => parseInt(x.On_time));\n  return (arr.reduce((a, b) => a + b, 0) / GetAllOrder.data.length).toFixed(2);\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  const arr = GetAllOrders.data.map(x => parseInt(x.On_time));\n  return (arr.reduce((a, b) => a + b, 0) / GetAllOrders.data.length).toFixed(2);\n}"
+      "() => {\n  const arr = GetAllOrder.data.map(x => parseInt(x.On_time));\n  return (arr.reduce((a, b) => a + b, 0) / GetAllOrder.data.length).toFixed(2);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
